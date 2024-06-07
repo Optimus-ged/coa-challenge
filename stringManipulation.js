@@ -39,5 +39,10 @@ const transform = (str) => {
       let reversedStr = reverse(str);
       return asiiConverter(reversedStr);
     }
+
+    // we can only reverse if the string is divisible by 3
+    else if (str.length % 3 === 0) {
+      return reverse(str);
+    }
   }
 };
