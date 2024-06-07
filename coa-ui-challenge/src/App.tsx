@@ -1,3 +1,11 @@
+import ImageItem from "./components/ImageItem";
+
 export default function App() {
-  return <h1>Yala</h1>;
+  return (
+    <div className="h-screen w-screen bg-black flex">
+      <div className="m-auto flex gap-[2px]">
+        <ImageItem />
+      </div>
+    </div>
+  );
 }
