@@ -47,10 +47,16 @@ const filter = (arr, target) => {
             if (sum(contigousArray) === target) return true;
           }
         }
+
+        // let's return false if there is no contiguous array  corresponding
+        // to the target value passed
+        if (parseInt(i) + 1 === arr.length && arr[i] < target) return false;
       }
     }
+  } else {
+    return false;
   }
 };
 
 // let's test
-console.log(filter([1, 2, 3, 444, 555, 6, 2, 1, 1, 9], 9));
+console.log(filter([1, 2, 3], 4));
