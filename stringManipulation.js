@@ -28,3 +28,16 @@ const asiiConverter = (str) => {
 
 // let's check if it works as expected
 // console.log(asiiConverter("pzza"))
+
+// let's now apply the string transformation
+const transform = (str) => {
+  // let's make sure the value passed is a string
+  if (typeof str === "string") {
+    // we have to apply both reverse and convert when the string passed is divisible
+    // by both 3 and 5
+    if (str.length % 3 === 0 && str.length % 5 === 0) {
+      let reversedStr = reverse(str);
+      return asiiConverter(reversedStr);
+    }
+  }
+};
