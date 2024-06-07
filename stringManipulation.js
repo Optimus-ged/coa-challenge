@@ -51,3 +51,6 @@ const transform = (str) => {
     }
   }
 };
+
+// let's check
+console.log(transform("pizza"));
