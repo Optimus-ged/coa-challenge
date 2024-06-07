@@ -8,20 +8,19 @@ export default function ImageItem() {
         <img className="h-full w-full" src={image1} alt="" />
 
         {/* image overlay */}
-        {/* we need to increase the opacity of the overlay when the user hover the image */}
+        {/* we increase the opacity of the overlay when the user hover the image */}
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent top-0 opacity-60 group-hover:opacity-100 transition duration-[0.4s]" />
-
-        {/* infos */}
-        <div className="hidden lg:block">
-          <div className=" absolute left-[40px] bottom-[40px] text-white group-hover:translate-y-[-32px] transition duration-[0.5s]">
-            <h1 className="text-2xl font-bold">title</h1>
-            <h1 className="text-2xl font-bold">subTitle</h1>
-            <p className="text-white/60 text-xs mt-[16.2px]">location</p>
-          </div>
-          <div className="flex gap-2 absolute bottom-[40px] left-[40px] items-center opacity-0 group-hover:opacity-100 transition duration-[0.4s]">
-            <p className="text-xs text-custom-color  ">Know more</p>
-            <ArrowRight color="#55bfdd" size={16} />
-          </div>
+      </div>
+      {/* infos */}
+      <div className="hidden lg:block">
+        <div className=" absolute left-[40px] bottom-[40px] text-white group-hover:translate-y-[-32px] transition duration-[0.5s]">
+          <h1 className="text-2xl font-bold">title</h1>
+          <h1 className="text-2xl font-bold">subTitle</h1>
+          <p className="text-white/60 text-xs mt-[16.2px]">location</p>
+        </div>
+        <div className="flex gap-2 absolute bottom-[40px] left-[40px] items-center opacity-0 group-hover:opacity-100 transition duration-[0.4s]">
+          <p className="text-xs text-custom-color">Know more</p>
+          <ArrowRight color="#55bfdd" size={16} />
         </div>
       </div>
     </div>
