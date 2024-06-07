@@ -44,5 +44,10 @@ const transform = (str) => {
     else if (str.length % 3 === 0) {
       return reverse(str);
     }
+
+    // only convert when the length is divisible by 5
+    else if (str.length % 5 === 0) {
+      return asiiConverter(str);
+    }
   }
 };
