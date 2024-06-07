@@ -1,4 +1,5 @@
 import ImageItem from "./components/ImageItem";
+import OverLay from "./components/overLay";
 import { imageItemsList } from "./data/imageItemData";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
           <ImageItem key={index} data={e} />
         ))}
       </div>
+      <OverLay />
     </div>
   );
 }
