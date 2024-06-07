@@ -1,16 +1,16 @@
-import image1 from "./assets/image1.png";
-import image2 from "./assets/image2.png";
-import image3 from "./assets/image3.png";
-import image4 from "./assets/image4.png";
+import image1 from "../assets/image1.png";
+import image2 from "../assets/image2.png";
+import image3 from "../assets/image3.png";
+import image4 from "../assets/image4.png";
 
-type imageItemDataType = {
+export type imageItemDataType = {
     url: string,
     title: string,
     subTitle: string,
     location: string
 }
 
-export const imageItemData : imageItemDataType[] = [
+export const imageItemsList : imageItemDataType[] = [
   {
     url: image1,
     title: "FENNEC",
