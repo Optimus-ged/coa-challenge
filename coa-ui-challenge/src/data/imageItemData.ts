@@ -3,7 +3,14 @@ import image2 from "./assets/image2.png";
 import image3 from "./assets/image3.png";
 import image4 from "./assets/image4.png";
 
-export const imageItemData = [
+type imageItemDataType = {
+    url: string,
+    title: string,
+    subTitle: string,
+    location: string
+}
+
+export const imageItemData : imageItemDataType[] = [
   {
     url: image1,
     title: "FENNEC",
