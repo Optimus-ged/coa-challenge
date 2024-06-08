@@ -12,7 +12,7 @@ export default function ImageItem({ data, onclick }: ImageItemProps) {
       className="overflow-hidden relative h-[588px] w-[98.5px] sm:w-[283px] group"
       onClick={onclick}
     >
-      <div className="h-[588px] w-[283px] group-hover:scale-105 group-hover:grayscale transition duration-[0.4s] group-hover:blur-[5px] translate-x-[-34%] lg:translate-x-0 relative">
+      <div className="h-[588px] w-[283px] group-hover:scale-105 group-hover:grayscale transition duration-[0.4s] group-hover:blur-[5px] translate-x-[-34%] sm:translate-x-0 relative">
         <img className="h-full w-full" src={data.url} alt="" />
 
         {/* image overlay */}
