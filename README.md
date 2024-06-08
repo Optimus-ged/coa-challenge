@@ -33,5 +33,10 @@ In your terminal, run this command
     - npm run dev
 
 ![Desktop view](/screenshots/desktop-view.png)
+*Desktop screen view
+
 ![Mobile view](/screenshots/mobile-view.png)
+*Mobile screen view
+
 ![fullscreen view](/screenshots/fullscreen-view.png)
+*full screen view
