@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { imageItemsList } from "../data/imageItemData";
 
 type CustomModalType = {
@@ -35,7 +35,7 @@ export default function CustomModal({
             className="text-white absolute top-2 left-[50%] translate-x-[-50%] cursor-pointer rounded-full bg-neutral-700/30 h-10 w-10 flex items-center justify-center"
             onClick={onClick}
           >
-            X
+            <X/>
           </p>
           <div
             className="h-10 w-10 left-5 hover:bg-neutral-700 rounded-full absolute flex top-[50%] translate-y-[-50%] cursor-pointer"

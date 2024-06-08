@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight  } from "lucide-react";
 import { imageItemDataType } from "../data/imageItemData";
 
 type ImageItemProps = {
